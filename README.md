@@ -1,4 +1,4 @@
-Zazoo Project
+<b>Zazoo Project</b> <br/><br/>
 This is the Zazoo Project, a web application for browsing and viewing products from the Fake Store API. It features responsive design, infinite scroll pagination, and dynamic product details pages.
 
 Features
@@ -16,25 +16,26 @@ Fake Store API: Used as the data source for products.
 Installation
 Clone the repository:
 
-bash
-git clone https://github.com/dalmiroalvarez/web-zazoo-dalmiro
-cd zazoo-project
+bash<br/><br/>
+git clone https://github.com/dalmiroalvarez/web-zazoo-dalmiro<br/>
+cd zazoo-project<br/>
 Install dependencies:
 
-bash
-npm install
+bash<br/><br/>
+npm install<br/>
 Start the development server:
 
-bash
-npm start
-The app will be available at http://localhost:3000.
+bash<br/><br/>
+npm start<br/>
+The app will be available at http://localhost:3000.<br/>
 
 Available Scripts
 npm start
-Runs the app in development mode. Open http://localhost:3000 to view in the browser.
+Runs the app in development mode.<br/>
+Open http://localhost:3000 to view in the browser.
 
-npm run build
+npm run build<br/>
 Builds the app for production. The output will be in the build/ directory.
 
-npm test
+npm test<br/>
 Runs tests for the application.
