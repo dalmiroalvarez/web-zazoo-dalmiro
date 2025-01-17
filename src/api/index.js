@@ -2,15 +2,12 @@ import axios from "axios";
 
 const url = "https://fakestoreapi.com/products";
 
-export const fetchProducts = async (limit = 4, page = 1) => {
-  try {
-    const response = await axios.get(`${url}?limit=${limit}&page=${page}`);
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching products:", error);
-    throw error;
-  }
+export const fetchProducts = async () => {
+  const response = await fetch("https://fakestoreapi.com/products");
+  const data = await response.json();
+  return data;
 };
+
 
 export const fetchProductById = async (id) => {
   try {
